@@ -28,7 +28,7 @@ Navigating to the webpage on Port 8080 rendered a Jenkins login page
 
 ![port8080](Images/port8080.png)
 
-Bruteforcing with Hydra requires valid parameters for URL, Form Parameters and login error message. To achieve this I ran an authentication request through Hydra. Having become much more familiar with Burp Suite since completing this room, I would default to using Burp Intruder for bruteforcing and fuzzing login fields. However, in this case, I was able to successfully do this via Hydra.
+Bruteforcing with Hydra requires valid parameters for URL, Form Parameters and login error message. To achieve this I ran an authentication request through Burp Suite. Having become much more familiar with Burp Suite since completing this room, I would default to using Burp Intruder for bruteforcing and fuzzing login fields. However, in this case, I was able to successfully do this via Hydra.
 
 ![Jenkins](Images/jenkins-login.png)
 
